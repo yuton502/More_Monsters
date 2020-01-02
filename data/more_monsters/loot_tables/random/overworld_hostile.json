@@ -1,0 +1,177 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 100, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:zombie}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 50, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:husk}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 5, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:zombie_villager}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 100, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:skeleton}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 50, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:stray}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 100, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:slime}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 100, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:spider}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 100, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:creeper}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 20, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:enderman}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 5, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:phantom}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 20, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:witch}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 10, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:pillager}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 10, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:vindicator}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 1, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:ravager}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 671, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:none}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "rewards": {
+    "function": "more_monsters:load"
+  }
+}

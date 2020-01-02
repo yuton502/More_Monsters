@@ -1,0 +1,78 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 30, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:zombie_pigman}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 30, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:blaze}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 30, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:wither_skeleton}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 30, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:magma_cube}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 1, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:enderman}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 121, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:none}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
