@@ -91,7 +91,7 @@ Drowned, guardian and ghast will spawn in random chance when naturally own spawn
 
 ### 変更点 / Changes
 * シュルカーはデスポーンしないため、追加でスポーンしたシュルカーはデスポーンするようになった。<br>Shulker spawned from this datapack can despawn because shulker doesn't despawn ordinally.
-* スポーンに使うエンティティをアーマースタンドからエリアエフェクトクラウドに変更。<br>Entity of using spawn changed area effect cloud from armor stand.
+* スポーンに使うエンティティをアーマースタンドからエリアエフェクトクラウドに変更。<br>Entity used for spawning is changed area effect cloud from armor stand.
 * スポーン抽選が外れた際に出現していたアイテムを無くした。<br>Removed spawning item when monster doesn't spawn.
 * 再ログイン時に実行されるload.mcfunctionがadvancementを介さなくなった。<br>load.mcfunction is no longer through advancement when running relogin.
 * 再ログイン時や再リロード時に実行されるtellrawを見やすいように変更。<br>Tellraw text when running relogin or reloading see better before.
