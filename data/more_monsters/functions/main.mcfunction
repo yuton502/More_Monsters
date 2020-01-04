@@ -11,5 +11,5 @@ execute as @e[type=minecraft:shulker,tag=Despawn] at @s unless entity @a[distanc
 execute as @e[type=minecraft:shulker,tag=Despawn,scores={MM_DCount=3600..}] at @s unless entity @a[distance=..32] run data merge entity @s {DeathTime:19s,Health:0f}
 
 #ワールドに入った際にloadを実行
-execute as @a[scores={MM_LeaveCount=1..}] run advancement revoke @s only more_monsters:entered_world
-execute as @a[scores={MM_LeaveCount=1..}] run scoreboard players reset @s MM_LeaveCount
+execute as @p[scores={MM_LeaveCount=1..}] run function more_monsters:load
+scoreboard players reset @a[scores={MM_LeaveCount=1..}] MM_LeaveCount

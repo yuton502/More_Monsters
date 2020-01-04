@@ -12,4 +12,4 @@ execute store success score #SuccessCount MM_Config run scoreboard players get #
 execute if score #SuccessCount MM_Config matches 0 run scoreboard players set #IsRecursiveSpawn MM_Config 1
 
 
-tellraw @a ["",{"text":"[More Monsters]","color":"aqua"},{"text":" Ver.1.1\n","color":"green"},{"text":"Produced by ","color":"aqua"},{"text":"yuton502","color":"gold"}]
+tellraw @a ["",{"text":"[More Monsters]","color":"aqua"},{"text":" Ver.1.1\n","color":"green"},{"text":"Produced by ","color":"gray"},{"text":"yuton502","color":"white"}]
