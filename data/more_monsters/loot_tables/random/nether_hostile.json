@@ -62,15 +62,8 @@
 					]
 				},
 				{
-					"type": "item",
-					"name": "minecraft:barrier", 
-					"weight": 121, 
-					"functions": [
-						{
-							"function": "set_nbt",
-							"tag": "{ItemId:More_Monsters,Mob:none}"
-						}
-					]
+					"type": "empty",
+					"weight": 121
 				}
 			]
 		}
