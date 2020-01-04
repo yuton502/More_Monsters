@@ -14,13 +14,15 @@ I recommend this for you want to increase monsters. This datapack increases spaw
 1. Uncompress saved the file, and set in saves/(world name)/datapacks it. 。<br>
 ※Support Version is 1.14~.
 <br><br>
+
 # コンフィグ / Config
 このデータパックにはコンフィグが存在します。まずコンフィグを確認したい場合は、**/function more_monsters:config**と入力します。<br>
-There are the config in this datapack. When checking config, 
+There are the config in this datapack. When checking config, /function more_monsters:config in chat.
 
-![](https://lh3.googleusercontent.com/dOXzBtNdWk40eNtvhXuX4rN3R-xIzrrIS_MfFUByBlGBDZtBv_g6sAqEEdEWoHAWeAVBULggxwAiyfueF-p3pvkOnL4sQGAqyWVVeZJBpTcEpAJnh3XS0lDwufrtx0N5vnp8hTj4UO4K-YbmpurrR_wHPqn9EmwnvjvKWzoWu5pBT-M-SvUEOTA9oqKYftAoxuZ-_H6rvJvK4RlrjJ8-aLGziKWGyiLxybS-0SYXzaLkTSnLwcfmHyBbzPRhxghnZEoa9xnAKxebttw6yN0ehk0sB3ZgxHgbY-nXamwmZvsopxqHIfS6DUSXSlstPCowwCEZ7AvrRgHrJr36XaM5tohCVfDnXY55x46dYlvNvFlVWi2wF4wOhvcyiAVyD2QJRN-68AN2UuUPayfB0eIpqn2pBN4QM3JHQcDBkg2xuw5-VDWJc5WaQYQkWAEM02w_-us-aBQUmr6bSuzrcZRg-eqB3vsqCJoSmPVbHGDcVbP3_NFVLmdhK2RL4v6_pURm5Bl6NYAFrvVs08pZWUy3JXsWQp4ykQBLk8X27Rpm_Zu4JSOmctz2aobqUelShSX52il_o_uXPjiUkxDPTaDoNpmL_fngN3risZRnKPlhSJyOJQbULUiwUerWNZ-wiYjqQpjIxQclZMl6hT2jrxKHwd-PeuMp0wi25jU6DHkOIhuDcgy7-hhYfaM=w1213-h683-no)
 
-コンフィグで確認、変更できる項目は、以下のようになります :
+コンフィグで確認、変更できる項目は、以下のようになります :<br>
+Checkable and Changeable points is under :
+
 <dl>
   <dt>■ MaxRepeats</dt>
   <dd>モンスターの最大抽選回数です。モンスターの出現する確率は50％なため、実際はこの半分が目安となります。
@@ -29,3 +31,70 @@ There are the config in this datapack. When checking config,
   <dd>モンスターを1tickでスポーンさせるかどうかです。通常、MaxRepeatsの数が大きい場合はfalseの方が無難です。
   <br>This is whether monsters spawn in 1tick. Ordinally, false is better when MaxRepeats is larger.</dd>
 </dl>
+<br>
+
+# スポーン抽選率 / Spawning rate
+スポーンするモンスターは、オーバーワールド、ネザー、エンドで違います。どのモンスターがどの確率でスポーンするかを一覧に記載しておきました。<br>
+なお、この確率はモンスターがスポーンすると確定している確率であり、実際にはスポーンしない確率(50%)もあるのでご注意ください。<br>
+***
+Spawning monsters are different in overworld or nether or the end. I was collected the table that which monster has how much spawning rate.<br>
+Even, this rate has determined that monsters will spawn, so apart from that there are monsters don't spawning rate(50%) actually.
+<br><br><br>
+**オーバーワールド / Overworld**
+
+| 出現するモンスター<br>Spawning monsters | ウェイト<br>Weight | 確率<br>Probability |
+|:----------:|:-----------:|:------------:|
+| ゾンビ<br>Zombie | 100 | 14.9% |
+| ハスク<br>Husk | 50 | 7.5% |
+| 村人ゾンビ<br>Zombie Villager | 50 | 7.5% |
+| スケルトン<br>Skeleton | 100 | 14.9% |
+| ストレイ<br>Stray | 50 | 7.5% |
+| スライム<br>Slime | 100 | 14.9% |
+| スパイダー<br>Spider | 100 | 14.9% |
+| クリーパー<br>Creeper | 100 | 14.9% |
+| エンダーマン<br>Enderman | 20 | 3.0% |
+| ファントム<br>Phantom | 5 | 0.7% |
+| ウィッチ<br>Witch | 20 | 3.0% |
+| ピリジャー<br>Pillager | 10 | 1.5% |
+| ヴィンディケーター<br>Vindicator| 10 | 1.5% |
+| ラヴェジャー<br>Ravager | 1 | 0.1% |
+<br>
+
+**ネザー / Nether**
+
+| 出現するモンスター<br>Spawning monsters | ウェイト<br>Weight | 確率<br>Probability |
+|:----------:|:-----------:|:------------:|
+| ゾンビピッグマン<br>Zombie Pigman | 30 | 24.8% |
+| ブレイズ<br>Blaze | 30 | 24.8% |
+| ウィザースケルトン<br>Wither Skeleton | 30 | 24.8% |
+| マグマキューブ<br>Magma Cube | 30 | 24.8% |
+| エンダーマン<br>Blaze | 1 | 0.8% |
+<br>
+
+**エンド / The End**
+
+| 出現するモンスター<br>Spawning monsters | ウェイト<br>Weight | 確率<br>Probability |
+|:----------:|:-----------:|:------------:|
+| エンダーマン<br>Enderman | 100 | 99.0% |
+| シュルカー<br>Shulker | 1 | 1.0% |
+<br>
+
+なお、ドラウンドとガーディアンとガストは自然スポーンした際にスポーン抽選します。スポーン抽選の確率は同じです(成功率50%)。
+
+***
+
+Drowned, guardian and ghast will spawn in random chance when naturally own spawned. Spawning rate is same(Success rate 50%).
+<br><br>
+# 更新履歴 / Changelogs
+### Ver.1.1
+
+
+### 変更点 / Changes
+* シュルカーはデスポーンしないため、追加でスポーンしたシュルカーはデスポーンするようになった。<br>Shulker spawned from this datapack can despawn because shulker doesn't despawn ordinally.
+* スポーンに使うエンティティをアーマースタンドからエリアエフェクトクラウドに変更。<br>Entity of using spawn changed area effect cloud from armor stand.
+* スポーン抽選が外れた際に出現していたアイテムを無くした。<br>Removed spawning item when monster doesn't spawn.
+
+
+### Ver.1.0
+初公開。<br>
+First release.
