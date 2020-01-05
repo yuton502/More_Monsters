@@ -68,7 +68,7 @@ Even, this rate has determined that monsters will spawn, so apart from that ther
 | ブレイズ<br>Blaze | 30 | 24.8% |
 | ウィザースケルトン<br>Wither Skeleton | 30 | 24.8% |
 | マグマキューブ<br>Magma Cube | 30 | 24.8% |
-| エンダーマン<br>Blaze | 1 | 0.8% |
+| エンダーマン<br>Enderman | 1 | 0.8% |
 <br>
 
 **エンド / The End**
