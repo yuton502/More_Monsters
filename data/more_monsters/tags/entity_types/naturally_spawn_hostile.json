@@ -6,7 +6,6 @@
     "minecraft:ghast",
     "minecraft:magma_cube",
     "minecraft:shulker",
-    "minecraft:enderman",
     "minecraft:slime",
     "minecraft:spider",
     "minecraft:creeper",
@@ -17,6 +16,7 @@
     "minecraft:zombie_pigman",
     "minecraft:guardian",
     "minecraft:phantom",
+    "minecraft:enderman",
     "minecraft:pillager",
     "minecraft:vindicator",
     "minecraft:witch"
