@@ -13,7 +13,18 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{ItemId:More_Monsters,Mob:zombie_pigman}"
+							"tag": "{ItemId:More_Monsters,Mob:piglin}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:barrier", 
+					"weight": 30, 
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ItemId:More_Monsters,Mob:zoglin}"
 						}
 					]
 				},
@@ -63,7 +74,7 @@
 				},
 				{
 					"type": "empty",
-					"weight": 121
+					"weight": 151
 				}
 			]
 		}

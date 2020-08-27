@@ -4,6 +4,7 @@
     "minecraft:wither_skeleton",
     "minecraft:blaze",
     "minecraft:magma_cube",
-    "minecraft:zombie_pigman"
+    "minecraft:zoglin",
+    "minecraft:piglin"
   ]
 }
