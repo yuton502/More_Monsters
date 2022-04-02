@@ -26,7 +26,6 @@ execute as @s at @e[type=item,sort=nearest,limit=1,predicate=more_monsters:find_
 
 execute as @s[tag=Drowned] at @e[type=item,sort=nearest,limit=1,predicate=more_monsters:find_item/is_spawn] run summon minecraft:drowned
 #execute as @s[type=minecraft:enderman] at @e[type=item,sort=nearest,limit=1,predicate=more_monsters:find_item/is_spawn] run summon minecraft:enderman
-execute if entity @e[type=item,dx=0,dy=0,dz=0,predicate=more_monsters:find_item/is_spawn] run say saha
 execute as @s[tag=Ghast] at @e[type=item,sort=nearest,limit=1,predicate=more_monsters:find_item/is_spawn] run summon minecraft:ghast
 execute as @s[tag=Guardian] at @e[type=item,sort=nearest,limit=1,predicate=more_monsters:find_item/is_spawn] run summon minecraft:guardian
 execute as @s[tag=Phantom] at @e[type=item,sort=nearest,limit=1,predicate=more_monsters:find_item/is_spawn] run summon minecraft:phantom
