@@ -5,6 +5,7 @@
     "minecraft:blaze",
     "minecraft:magma_cube",
     "minecraft:zoglin",
-    "minecraft:piglin"
+    "minecraft:piglin",
+    "minecraft:zombified_piglin"
   ]
 }

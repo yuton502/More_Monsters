@@ -31,7 +31,7 @@
 				{
 					"type": "item",
 					"name": "minecraft:barrier", 
-					"weight": 30, 
+					"weight": 15, 
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -74,7 +74,7 @@
 				},
 				{
 					"type": "empty",
-					"weight": 151
+					"weight": 136
 				}
 			]
 		}

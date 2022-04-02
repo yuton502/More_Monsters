@@ -1,7 +1,16 @@
-{
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "nbt": "{Age:1s}"
-    }       
-}
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "nbt": "{Age:1s}"
+        }   
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:reference",
+            "name": "more_monsters:splitting_slime"
+        }
+    }
+]
